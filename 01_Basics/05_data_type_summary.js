@@ -33,4 +33,30 @@ const myFunction = function()
     console.log("Namaste Duniya");
 }
 
-console.log(myFunction())
+console.log(myFunction)
+
+
+
+// .....................................................
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myYoutubeName = "Nivesh soni pencil art"
+
+let anotherName = myYoutubeName
+anotherName = "Nivesh soni problem solver"
+
+
+console.log(anotherName)
+console.log(myYoutubeName)
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "Hello@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
