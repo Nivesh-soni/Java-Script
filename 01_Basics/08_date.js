@@ -20,4 +20,4 @@ console.log(nivDate.toLocaleString())
 // ................. Time Stamp .................
 
 let myTimeStamp = Date.now()
-console.log
+console.log(myTimeStamp)
