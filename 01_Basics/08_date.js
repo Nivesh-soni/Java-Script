@@ -6,3 +6,18 @@ console.log(typeof myDate)
 
 let myCreatedDate = new Date(1980,1,29)
 console.log(myCreatedDate.toDateString())
+
+let lDate = new Date(2005,0,25,5,3)
+console.log(lDate.toLocaleString())
+
+let sDate = new Date(2005,0,25)
+console.log(sDate.toDateString())
+
+let nivDate = new Date("2005-1-25")
+console.log(nivDate.toLocaleString())
+
+
+// ................. Time Stamp .................
+
+let myTimeStamp = Date.now()
+console.log
