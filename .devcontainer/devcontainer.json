@@ -26,7 +26,11 @@
 				"editor.fontSize": 16,
 				"terminal.integrated.fontSize": 16,
 				"editor.wordWrap": "on"
-			}
+			},
+			"Print to console": {
+		"prefix": "clog",
+		"body": [
+			"console.log('$1');"]}
 			
 		}
 		
