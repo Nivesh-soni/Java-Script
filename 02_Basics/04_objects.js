@@ -70,3 +70,26 @@ console.log(Object.entries(tinderuser))
 
 console.log(tinderuser.hasOwnProperty("isLoggedIn"))
 console.log(tinderuser.hasOwnProperty("isLoggedI"))
+
+// Destructure of object
+
+const course = {
+    courseName: "js hindi",
+    fee:133,
+    Teacher:'nivesh'
+}
+
+// console.log(course.Teacher)
+
+const {Teacher: guru} = course //Yaha per hamne object ko de-struct kar diya aur teacher ko guru naam se replace bhi kar diya  
+console.log(guru)
+
+
+
+// JSON & API
+
+// {
+//     "name":"Nivesh soni",
+//     "coursename":"DCA",
+//     "fees":119
+// }
