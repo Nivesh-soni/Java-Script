@@ -21,7 +21,7 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"hediet.vscode-drawio-text"
+				"hediet.vscode-drawio"
 			],
 			"settings": {
 				"editor.fontSize": 16,
